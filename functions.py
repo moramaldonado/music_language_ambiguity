@@ -57,56 +57,98 @@ def showInstructions(screen, instructions):
     wait_for_space()
 
 def stim(sound):  # retrieve the file name & place
-    sound = dirstims + sound + '.wav'
+    sound = dirstims + sound + '.mid'
     return sound
 
-def play_stim(sound): #plays sound
-    wf = wave.open(stim(sound), 'rb')
-    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
-                    channels=wf.getnchannels(),
-                    rate=wf.getframerate(),
-                    output=True)
-    data = wf.readframes(CHUNK)
+# def play_stim(sound): #plays sound
+#     wf = wave.open(stim(sound), 'rb')
+#     stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+#                     channels=wf.getnchannels(),
+#                     rate=wf.getframerate(),
+#                     output=True)
+#     data = wf.readframes(CHUNK)
+#
+#     while data != '':
+#         stream.write(data)
+#         data = wf.readframes(CHUNK)
+#     stream.stop_stream()
+#     stream.close()
 
-    while data != '':
-        stream.write(data)
-        data = wf.readframes(CHUNK)
-    stream.stop_stream()
-    stream.close()
 
-def self_paced_listening(screen, sound):
-    screen.fill(WHITE)
+def play_music(music_file):
+    """
+    stream music with mixer.music module in blocking manner
+    this will stream the sound from disk while playing
+    """
+    music_file = stim(music_file)
+    try:
+        pygame.mixer.music.load(music_file)
+        print "Music file %s loaded!" % music_file
+    except pygame.error:
+        print "File %s not found! (%s)" % (music_file, pygame.get_error())
+        return
+    pygame.mixer.music.play()
+
+def self_paced_listening(screen,sound):
+    music_file = stim(sound)
     t0 = pygame.time.get_ticks()
+    screen.fill(WHITE)
     SCREEN_X, SCREEN_Y = screen.get_size()
     img = pygame.image.load('music.jpg')
     img_size_x, img_size_y = img.get_size()
     img_pos_x = round((SCREEN_X-img_size_x)/2)
     img_pos_y = round((SCREEN_Y-img_size_y)/2)
     screen.blit(img,(img_pos_x,img_pos_y))
-
     pygame.display.update()
 
-    wf = wave.open(stim(sound), 'rb')
-    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
-                    channels=wf.getnchannels(),
-                    rate=wf.getframerate(),
-                    output=True)
-    data = wf.readframes(CHUNK)
+    pygame.mixer.music.load(music_file)
+    pygame.mixer.music.play()
 
-    while data != '':
+    pygame.event.get()  # clear previous events
+    while True:
+        for ev in pygame.event.get():
+            if ev.type == QUIT or (ev.type == KEYDOWN and ev.key == K_ESCAPE):
+                raise Exception
+            elif ev.type == KEYDOWN and ev.key == K_SPACE:
+                t = pygame.time.get_ticks() - t0
+                pygame.mixer.music.stop()
+                screen.fill(WHITE)
+                pygame.display.update()
+                return t
 
-        stream.write(data)
-        data = wf.readframes(CHUNK)
-        ev = pygame.event.poll()
-        if ev.type == QUIT or (ev.type == KEYDOWN and ev.key == K_ESCAPE):
-            raise Exception
-        elif ev.type == KEYDOWN and ev.key == K_SPACE:
-            t = pygame.time.get_ticks() - t0
-            stream.stop_stream()
-            stream.close()
-            screen.fill(WHITE)
-            pygame.display.update()
-            return t
+# def OLD_self_paced_listening(screen, sound):
+#     #screen.fill(WHITE)
+#     t0 = pygame.time.get_ticks()
+#     #SCREEN_X, SCREEN_Y = screen.get_size()
+#     #img = pygame.image.load('music.jpg')
+#     #img_size_x, img_size_y = img.get_size()
+#     #img_pos_x = round((SCREEN_X-img_size_x)/2)
+#     #img_pos_y = round((SCREEN_Y-img_size_y)/2)
+#     #screen.blit(img,(img_pos_x,img_pos_y))
+#
+#     #pygame.display.update()
+#
+#     wf = wave.open(stim(sound), 'rb')
+#     stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+#                     channels=wf.getnchannels(),
+#                     rate=wf.getframerate(),
+#                     output=True)
+#     data = wf.readframes(CHUNK)
+#
+#     while data != '':
+#
+#         stream.write(data)
+#         data = wf.readframes(CHUNK)
+#         ev = pygame.event.poll()
+#         if ev.type == QUIT or (ev.type == KEYDOWN and ev.key == K_ESCAPE):
+#             raise Exception
+#         elif ev.type == KEYDOWN and ev.key == K_SPACE:
+#             t = pygame.time.get_ticks() - t0
+#             stream.stop_stream()
+#             stream.close()
+#             screen.fill(WHITE)
+#             pygame.display.update()
+#             return t
 
 #General funciton
 def self_paced(m):

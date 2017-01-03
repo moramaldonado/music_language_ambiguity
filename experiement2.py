@@ -20,6 +20,15 @@ CHANNELS = 1
 RATE = 22050
 p = pyaudio.PyAudio()
 
+
+freq = 44100    # audio CD quality
+bitsize = -16   # unsigned 16 bit
+channels = 2    # 1 is mono, 2 is stereo
+buffer = 1024    # number of samples
+pygame.mixer.init(freq, bitsize, channels, buffer)
+# optional volume 0 to 1.0
+pygame.mixer.music.set_volume(0.8)
+
 # variables and parameters
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -55,10 +64,10 @@ try:
     # OPEN SCREEN  (2)
 
     # full screen for actual experiment
-    #screen = pygame.display.set_mode([0, 0], FULLSCREEN | DOUBLEBUF | HWSURFACE)
+    screen = pygame.display.set_mode([0, 0], FULLSCREEN | DOUBLEBUF | HWSURFACE)
 
     # smaller screen size for debug
-    screen = pygame.display.set_mode([1000, 600])
+    #screen = pygame.display.set_mode([1000, 600])
     SCREEN_X, SCREEN_Y = screen.get_size()
 
     # SHOW INSTRUCTIONS (3)
@@ -68,10 +77,10 @@ try:
         # EXAMPLES(3')
 
         # EX1. CLOSED SEQUENCE
-        example1= 'examples/Example_Sequences_closed'
+        example1 = 'examples/Example_Sequences_closed'
         example2= 'examples/Example_Sequences_open'
 
-        play_stim(example1)
+        play_music(example1)
 
         img = pygame.image.load('pilot1_example1.jpeg')
         img_size_x, img_size_y = img.get_size()
@@ -145,7 +154,6 @@ try:
             pygame.display.flip()
             TRIALS[t]['total.listening.time'] = int(TRIALS[t]['total.listening.time']) + int(TRIALS[t]['chunks'][i][1])
             print TRIALS[t]['chunks'][i]
-
 
         # offline task(C)
         if pilot == '1':
