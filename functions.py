@@ -60,7 +60,7 @@ def stim(sound):  # retrieve the file name & place
     sound = dirstims + sound + '.wav'
     return sound
 
-def play_sound(sound):
+def play_stim(sound): #plays sound
     wf = wave.open(stim(sound), 'rb')
     stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
                     channels=wf.getnchannels(),
@@ -71,6 +71,8 @@ def play_sound(sound):
     while data != '':
         stream.write(data)
         data = wf.readframes(CHUNK)
+    stream.stop_stream()
+    stream.close()
 
 def self_paced_listening(screen, sound):
     screen.fill(WHITE)

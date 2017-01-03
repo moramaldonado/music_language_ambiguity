@@ -55,7 +55,7 @@ try:
     # OPEN SCREEN  (2)
 
     # full screen for actual experiment
-    # screen = pygame.display.set_mode([0, 0], FULLSCREEN | DOUBLEBUF | HWSURFACE)
+    #screen = pygame.display.set_mode([0, 0], FULLSCREEN | DOUBLEBUF | HWSURFACE)
 
     # smaller screen size for debug
     screen = pygame.display.set_mode([1000, 600])
@@ -66,17 +66,9 @@ try:
         showInstructions(screen, 'instructions_1.jpeg')
 
         # EXAMPLES(3')
-        screen.fill(WHITE)
-        font = pygame.font.SysFont('Tahoma', 28)
-        text = font.render('For example, listen to this sequence of chords.', True, (0, 0, 0))
-        img_size_x, img_size_y = text.get_size()
-        screen.blit(text, (round((SCREEN_X - img_size_x) / 2), round((SCREEN_Y - img_size_y) / 2)))
-        pygame.display.update()
-        #time.sleep(50)
-        #pygame.time.wait(5000)
 
-        wait_for_space()
-        play_sound(TRIALS[0]['chunks'][0][0])
+        # EX1. CLOSED SEQUENCE
+        play_stim(TRIALS[0]['chunks'][0][0])
 
         img = pygame.image.load('pilot1_example1.jpeg')
         img_size_x, img_size_y = img.get_size()
@@ -84,8 +76,17 @@ try:
         img_pos_y = round((SCREEN_Y - img_size_y) / 2)
         screen.blit(img, (img_pos_x, img_pos_y))
         pygame.display.flip()
-
         wait_for_space()
+
+        # EX2. OPEN SEQUENCE
+        img = pygame.image.load('pilot1_example2.jpeg')
+        img_size_x, img_size_y = img.get_size()
+        img_pos_x = round((SCREEN_X - img_size_x) / 2)
+        img_pos_y = round((SCREEN_Y - img_size_y) / 2)
+        screen.blit(img, (img_pos_x, img_pos_y))
+        pygame.display.flip()
+        wait_for_space()
+
 
     elif pilot == '2':
         showInstructions(screen, 'instructions_2.jpeg')
@@ -123,7 +124,6 @@ try:
     # BEGIN TRIALS (5)
     for t in range(len(TRIALS)):
 
-
         # fixation point(A)
         screen.fill(WHITE)
         font = pygame.font.SysFont('Tahoma', 36)
@@ -138,9 +138,8 @@ try:
             tiempo = self_paced_listening(screen, TRIALS[t]['chunks'][i][0])
             TRIALS[t]['chunks'][i][1] = tiempo  # saving the listening time
             pygame.display.flip()
-            TRIALS[t]['total.listening.time'] = TRIALS[t]['total.listening.time'] + TRIALS[t]['chunks'][i][1]
+            TRIALS[t]['total.listening.time'] = int(TRIALS[t]['total.listening.time']) + int(TRIALS[t]['chunks'][i][1])
             print TRIALS[t]['chunks'][i]
-
 
 
         # offline task(C)
