@@ -14,13 +14,6 @@ from functions import *
 #create_empty_csv('Results_Experiment2')
 
 # Audio settings
-CHUNK = 1024
-FORMAT = pyaudio.paInt16
-CHANNELS = 1
-RATE = 22050
-p = pyaudio.PyAudio()
-
-
 freq = 44100    # audio CD quality
 bitsize = -16   # unsigned 16 bit
 channels = 2    # 1 is mono, 2 is stereo
@@ -90,7 +83,7 @@ try:
         pygame.display.flip()
         wait_for_space()
 
-        play_stim(example2)
+        play_music(example2)
 
         # EX2. OPEN SEQUENCE
         img = pygame.image.load('pilot1_example2.jpeg')
