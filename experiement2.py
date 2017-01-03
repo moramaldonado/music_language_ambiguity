@@ -65,7 +65,7 @@ try:
 
     # SHOW INSTRUCTIONS (3)
     if pilot == '1':
-        showInstructions(screen, 'instructions_1.jpeg')
+
 
         # EXAMPLES(3')
 
@@ -73,6 +73,7 @@ try:
         example1 = 'examples/Example_Sequences_closed'
         example2= 'examples/Example_Sequences_open'
 
+        showInstructions(screen, 'instructions_1.jpeg')
         play_music(example1)
 
         img = pygame.image.load('pilot1_example1.jpeg')
