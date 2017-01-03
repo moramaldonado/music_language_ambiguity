@@ -68,7 +68,10 @@ try:
         # EXAMPLES(3')
 
         # EX1. CLOSED SEQUENCE
-        play_stim(TRIALS[0]['chunks'][0][0])
+        example1= 'examples/Example_Sequences_closed'
+        example2= 'examples/Example_Sequences_open'
+
+        play_stim(example1)
 
         img = pygame.image.load('pilot1_example1.jpeg')
         img_size_x, img_size_y = img.get_size()
@@ -77,6 +80,8 @@ try:
         screen.blit(img, (img_pos_x, img_pos_y))
         pygame.display.flip()
         wait_for_space()
+
+        play_stim(example2)
 
         # EX2. OPEN SEQUENCE
         img = pygame.image.load('pilot1_example2.jpeg')
@@ -177,14 +182,14 @@ try:
     # include results of the subject in bigger csv
     include_csv_data('Results_Experiment2', TRIALS, path)
 
-#
-# except:
-#     os.chdir(path + '/subject_results/')
-#     name = subj + '_' + pilot + '_python'
-#     with open(name, 'wb') as f:
-#         pickle.dump(TRIALS, f)
-#
-#     include_csv_data('Results_Experiment2', TRIALS, path)
+
+except:
+    os.chdir(path + '/subject_results/')
+    name = subj + '_' + pilot + '_python'
+    with open(name, 'wb') as f:
+        pickle.dump(TRIALS, f)
+
+    include_csv_data('Results_Experiment2', TRIALS, path)
 
 
 
