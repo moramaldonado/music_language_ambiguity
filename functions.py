@@ -22,7 +22,7 @@ WHITE = (255,255,255)
 BLACK = (0,0,0)
 path = os.getcwd()
 dirstims = path+'/stimuli_music_snippets/'
-
+#dirstims = path+'/Mixdowns/'
 
 ############################################################
 ###################### FUNCTIONS ###########################
@@ -57,7 +57,8 @@ def showInstructions(screen, instructions):
     wait_for_space()
 
 def stim(sound):  # retrieve the file name & place
-    sound = dirstims + sound + '.mid'
+    #sound = dirstims + sound + '.mid'
+    sound = dirstims + sound + '.wav'
     return sound
 
 # def play_stim(sound): #plays sound
@@ -332,7 +333,8 @@ def trial_generation(conditions, conditions_filler):
 
             trial['type'] = 'experimental_trial'
             trial['condition'] = conditions[c]
-            trial['dir'] = 'chords/'
+            #trial['dir'] = 'chords_old/'
+            trial['dir'] = 'Stimuli/'
             # files: transposition-chunk-
             # trials['chunks'] = [[chunk1: chord, time=0], [chunk2: chord, time=0]...]
             t = 0  # time
@@ -359,7 +361,8 @@ def trial_generation(conditions, conditions_filler):
 
             trial['type'] = 'filler'
             trial['condition'] = conditions_filler[c]
-            trial['dir'] = 'fillers/'
+            #trial['dir'] = 'fillers/'
+            trial['dir'] = 'Fillers/'
             trial['transposition'] = str(i)
             trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t],
                                [trial['dir'] + str(i) + '-' + '2' + '-' + trial['condition'], t],
