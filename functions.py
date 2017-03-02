@@ -347,7 +347,7 @@ def trial_generation(conditions, conditions_filler):
     ## now: 3 repetitions, 9 fillers
 
     for c in range(len(conditions_filler)):
-        for i in range(3):  # Repetitions/Transpositions
+        for i in range(1,4):  # Repetitions/Transpositions
             trial = {}
             trial['subject'] ='NA'
             trial['experiment'] ='NA'
