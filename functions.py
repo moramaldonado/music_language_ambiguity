@@ -22,7 +22,7 @@ WHITE = (255,255,255)
 BLACK = (0,0,0)
 path = os.getcwd()
 dirstims = path+'/stimuli_music_snippets/'
-#dirstims = path+'/Mixdowns/'
+
 
 ############################################################
 ###################### FUNCTIONS ###########################
@@ -324,6 +324,7 @@ def trial_generation(conditions, conditions_filler):
     for c in range(len(conditions)):
         for i in range(6):  # Repetitions/Transpositions (same 6 transpositions for all participants, differences within subjecst)
             trial = {}
+            t = 0  # time
             trial['subject'] ='NA'
             trial['experiment'] ='NA'
             trial['pilot'] = 'NA'
@@ -333,16 +334,12 @@ def trial_generation(conditions, conditions_filler):
 
             trial['type'] = 'experimental_trial'
             trial['condition'] = conditions[c]
-            #trial['dir'] = 'chords_old/'
-            trial['dir'] = 'Stimuli/'
+            trial['dir'] = 'chords/'
             # files: transposition-chunk-
             # trials['chunks'] = [[chunk1: chord, time=0], [chunk2: chord, time=0]...]
-            t = 0  # time
+
             trial['transposition']= str(i)
-            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t], [trial['dir'] + str(i) + '-' + '2', t],
-                               [trial['dir'] + str(i) + '-' + '3', t],
-                               [trial['dir'] + str(i) + '-' + '4' + '-' + str(c + 1), t],
-                               [trial['dir'] + str(i) + '-' + '5', t]]
+            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t], [trial['dir'] + str(i) + '-' + '2', t], [trial['dir'] + str(i) + '-' + '3', t], [trial['dir'] + str(i) + '-' + '4', t],[trial['dir'] + str(i) + '-' + '5' + '-' + str(c + 1), t], [trial['dir'] + str(i) + '-' + '6', t], [trial['dir'] + str(i) + '-' + '6', t]]
 
             TRIALS.append(trial)
 
@@ -361,13 +358,9 @@ def trial_generation(conditions, conditions_filler):
 
             trial['type'] = 'filler'
             trial['condition'] = conditions_filler[c]
-            #trial['dir'] = 'fillers/'
-            trial['dir'] = 'Fillers/'
+            trial['dir'] = 'fillers/'
             trial['transposition'] = str(i)
-            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t],
-                               [trial['dir'] + str(i) + '-' + '2' + '-' + trial['condition'], t],
-                               [trial['dir'] + str(i) + '-' + '3', t], [trial['dir'] + str(i) + '-' + '4', t],
-                               [trial['dir'] + str(i) + '-' + '5', t]]
+            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t], [trial['dir'] + str(i) + '-' + '2', t], [trial['dir'] + str(i) + '-' + '3' + '-' + trial['condition'], t], [trial['dir'] + str(i) + '-' + '4', t], [trial['dir'] + str(i) + '-' + '5', t], [trial['dir'] + str(i) + '-' + '6', t], [trial['dir'] + str(i) + '-' + '7', t]]
             TRIALS.append(trial)
 
     return TRIALS

@@ -26,7 +26,6 @@ pygame.mixer.music.set_volume(0.8)
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 path = os.getcwd()
-#dirstims = path + '/Mixdowns/'
 dirstims = path + '/stimuli_music_snippets/'
 conditions = ['A', 'B', 'C']  # conditions: 1=A=Prefered, 2=B=Disprefered, 3=C=Globally Ambiguous
 conditions_fillers = ['1', '2', '3']
@@ -85,7 +84,7 @@ try:
         pygame.display.flip()
         wait_for_space()
 
-        #play_music(example2)
+        play_music(example2)
 
         # EX2. OPEN SEQUENCE
         img = pygame.image.load('pilot1_example2.jpeg')
