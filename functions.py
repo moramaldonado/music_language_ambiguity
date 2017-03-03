@@ -339,7 +339,7 @@ def trial_generation(conditions, conditions_filler):
             # trials['chunks'] = [[chunk1: chord, time=0], [chunk2: chord, time=0]...]
 
             trial['transposition']= str(i)
-            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t], [trial['dir'] + str(i) + '-' + '2', t], [trial['dir'] + str(i) + '-' + '3', t], [trial['dir'] + str(i) + '-' + '4', t],[trial['dir'] + str(i) + '-' + '5' + '-' + str(c + 1), t], [trial['dir'] + str(i) + '-' + '6', t], [trial['dir'] + str(i) + '-' + '6', t]]
+            trial['chunks'] = [[trial['dir'] + str(i) + '-' + '1', t], [trial['dir'] + str(i) + '-' + '2', t], [trial['dir'] + str(i) + '-' + '3', t], [trial['dir'] + str(i) + '-' + '4', t],[trial['dir'] + str(i) + '-' + '5' + '-' + str(c + 1), t], [trial['dir'] + str(i) + '-' + '6', t], [trial['dir'] + str(i) + '-' + '7', t]]
 
             TRIALS.append(trial)
 
