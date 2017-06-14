@@ -3428,3 +3428,570 @@ jw1983,2,1,filler,3,3,1872,1220,Somewhat complete,13690
 jw1983,2,1,filler,3,4,1807,1220,Somewhat complete,13690
 jw1983,2,1,filler,3,5,1718,1220,Somewhat complete,13690
 jw1983,2,1,filler,3,6,3018,1220,Somewhat complete,13690
+ca1991,2,1,experimental_trial,C,0,2682,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,1,2040,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,2,1862,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,3,1899,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,4,1868,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,5,2168,3697,Totally incomplete,14491
+ca1991,2,1,experimental_trial,C,6,1972,3697,Totally incomplete,14491
+ca1991,2,1,filler,2,0,1678,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,1,1684,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,2,1664,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,3,1643,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,4,1651,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,5,1722,4652,Somewhat complete,11695
+ca1991,2,1,filler,2,6,1653,4652,Somewhat complete,11695
+ca1991,2,1,experimental_trial,B,0,1727,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,1,1537,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,2,1566,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,3,1610,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,4,1568,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,5,1547,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,B,6,1449,3732,Totally complete,11004
+ca1991,2,1,experimental_trial,A,0,3117,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,1,2151,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,2,2049,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,3,1900,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,4,1821,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,5,1729,2742,Somewhat complete,14569
+ca1991,2,1,experimental_trial,A,6,1802,2742,Somewhat complete,14569
+ca1991,2,1,filler,1,0,1643,4002,Totally complete,11249
+ca1991,2,1,filler,1,1,1549,4002,Totally complete,11249
+ca1991,2,1,filler,1,2,1489,4002,Totally complete,11249
+ca1991,2,1,filler,1,3,1575,4002,Totally complete,11249
+ca1991,2,1,filler,1,4,1512,4002,Totally complete,11249
+ca1991,2,1,filler,1,5,1697,4002,Totally complete,11249
+ca1991,2,1,filler,1,6,1784,4002,Totally complete,11249
+ca1991,2,1,experimental_trial,A,0,1649,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,1,1633,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,2,1619,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,3,1684,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,4,1623,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,5,1694,3665,Totally incomplete,11561
+ca1991,2,1,experimental_trial,A,6,1659,3665,Totally incomplete,11561
+ca1991,2,1,filler,3,0,1543,3940,Totally complete,10912
+ca1991,2,1,filler,3,1,1511,3940,Totally complete,10912
+ca1991,2,1,filler,3,2,1566,3940,Totally complete,10912
+ca1991,2,1,filler,3,3,1570,3940,Totally complete,10912
+ca1991,2,1,filler,3,4,1446,3940,Totally complete,10912
+ca1991,2,1,filler,3,5,1670,3940,Totally complete,10912
+ca1991,2,1,filler,3,6,1606,3940,Totally complete,10912
+ca1991,2,1,experimental_trial,C,0,1507,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,1,1589,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,2,1550,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,3,1550,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,4,1513,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,5,2174,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,C,6,1660,6533,Somewhat incomplete,11543
+ca1991,2,1,experimental_trial,B,0,1525,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,1,1432,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,2,1502,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,3,1514,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,4,1385,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,5,1482,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,6,1377,2756,Totally complete,10217
+ca1991,2,1,experimental_trial,B,0,1447,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,1,1459,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,2,1500,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,3,1374,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,4,1397,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,5,1344,1096,Totally complete,9908
+ca1991,2,1,experimental_trial,B,6,1387,1096,Totally complete,9908
+ca1991,2,1,filler,3,0,1443,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,1,1379,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,2,1410,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,3,1437,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,4,1414,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,5,1494,4929,Somewhat complete,10110
+ca1991,2,1,filler,3,6,1533,4929,Somewhat complete,10110
+ca1991,2,1,experimental_trial,A,0,1489,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,1,1469,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,2,1399,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,3,1457,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,4,1369,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,5,1451,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,A,6,1565,4368,Somewhat incomplete,10199
+ca1991,2,1,experimental_trial,B,0,1235,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,1,1355,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,2,1344,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,3,1291,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,4,1375,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,5,1354,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,B,6,1282,2064,Totally complete,9236
+ca1991,2,1,experimental_trial,A,0,1380,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,1,1300,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,2,1241,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,3,1330,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,4,1340,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,5,1493,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,A,6,1357,2637,Somewhat complete,9441
+ca1991,2,1,experimental_trial,C,0,1334,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,1,1235,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,2,1279,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,3,1304,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,4,1357,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,5,1399,6226,Somewhat complete,9250
+ca1991,2,1,experimental_trial,C,6,1342,6226,Somewhat complete,9250
+ca1991,2,1,filler,2,0,1344,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,1,1294,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,2,1179,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,3,1140,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,4,1241,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,5,1217,2120,Somewhat complete,8794
+ca1991,2,1,filler,2,6,1379,2120,Somewhat complete,8794
+ca1991,2,1,experimental_trial,A,0,1294,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,1,1296,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,2,1225,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,3,1210,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,4,1182,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,5,1209,2928,Somewhat complete,8561
+ca1991,2,1,experimental_trial,A,6,1145,2928,Somewhat complete,8561
+ca1991,2,1,filler,3,0,1184,1622,Totally complete,8266
+ca1991,2,1,filler,3,1,1168,1622,Totally complete,8266
+ca1991,2,1,filler,3,2,1114,1622,Totally complete,8266
+ca1991,2,1,filler,3,3,1142,1622,Totally complete,8266
+ca1991,2,1,filler,3,4,1320,1622,Totally complete,8266
+ca1991,2,1,filler,3,5,1167,1622,Totally complete,8266
+ca1991,2,1,filler,3,6,1171,1622,Totally complete,8266
+ca1991,2,1,experimental_trial,C,0,1143,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,1,1055,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,2,1074,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,3,1112,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,4,1061,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,5,1140,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,C,6,1239,2538,Somewhat complete,7824
+ca1991,2,1,experimental_trial,A,0,1114,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,1,1012,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,2,1058,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,3,1041,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,4,1031,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,5,1127,1784,Somewhat complete,7458
+ca1991,2,1,experimental_trial,A,6,1075,1784,Somewhat complete,7458
+ca1991,2,1,filler,1,0,1050,1856,Totally complete,7451
+ca1991,2,1,filler,1,1,1072,1856,Totally complete,7451
+ca1991,2,1,filler,1,2,1059,1856,Totally complete,7451
+ca1991,2,1,filler,1,3,1049,1856,Totally complete,7451
+ca1991,2,1,filler,1,4,1047,1856,Totally complete,7451
+ca1991,2,1,filler,1,5,1079,1856,Totally complete,7451
+ca1991,2,1,filler,1,6,1095,1856,Totally complete,7451
+ca1991,2,1,experimental_trial,C,0,1055,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,1,1102,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,2,1085,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,3,1043,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,4,1107,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,5,1280,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,C,6,1107,1872,Somewhat complete,7779
+ca1991,2,1,experimental_trial,B,0,1122,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,1,1111,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,2,1069,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,3,1106,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,4,1009,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,5,1001,1348,Totally complete,7493
+ca1991,2,1,experimental_trial,B,6,1075,1348,Totally complete,7493
+ca1991,2,1,filler,2,0,1098,1388,Totally complete,7806
+ca1991,2,1,filler,2,1,1159,1388,Totally complete,7806
+ca1991,2,1,filler,2,2,1048,1388,Totally complete,7806
+ca1991,2,1,filler,2,3,1040,1388,Totally complete,7806
+ca1991,2,1,filler,2,4,1098,1388,Totally complete,7806
+ca1991,2,1,filler,2,5,1096,1388,Totally complete,7806
+ca1991,2,1,filler,2,6,1267,1388,Totally complete,7806
+ca1991,2,1,experimental_trial,B,0,1157,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,1,969,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,2,1015,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,3,1056,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,4,1099,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,5,1037,1195,Totally complete,7337
+ca1991,2,1,experimental_trial,B,6,1004,1195,Totally complete,7337
+ca1991,2,1,filler,1,0,1107,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,1,1148,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,2,1082,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,3,985,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,4,1081,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,5,1018,2768,Somewhat complete,7537
+ca1991,2,1,filler,1,6,1116,2768,Somewhat complete,7537
+ca1991,2,1,experimental_trial,C,0,980,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,1,1077,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,2,1017,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,3,1047,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,4,937,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,5,1047,2698,Somewhat incomplete,7079
+ca1991,2,1,experimental_trial,C,6,974,2698,Somewhat incomplete,7079
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,filler,3,0,0,NA,NA,0
+ak1999,2,1,filler,3,1,0,NA,NA,0
+ak1999,2,1,filler,3,2,0,NA,NA,0
+ak1999,2,1,filler,3,3,0,NA,NA,0
+ak1999,2,1,filler,3,4,0,NA,NA,0
+ak1999,2,1,filler,3,5,0,NA,NA,0
+ak1999,2,1,filler,3,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,filler,2,0,0,NA,NA,0
+ak1999,2,1,filler,2,1,0,NA,NA,0
+ak1999,2,1,filler,2,2,0,NA,NA,0
+ak1999,2,1,filler,2,3,0,NA,NA,0
+ak1999,2,1,filler,2,4,0,NA,NA,0
+ak1999,2,1,filler,2,5,0,NA,NA,0
+ak1999,2,1,filler,2,6,0,NA,NA,0
+ak1999,2,1,filler,3,0,0,NA,NA,0
+ak1999,2,1,filler,3,1,0,NA,NA,0
+ak1999,2,1,filler,3,2,0,NA,NA,0
+ak1999,2,1,filler,3,3,0,NA,NA,0
+ak1999,2,1,filler,3,4,0,NA,NA,0
+ak1999,2,1,filler,3,5,0,NA,NA,0
+ak1999,2,1,filler,3,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,filler,1,0,0,NA,NA,0
+ak1999,2,1,filler,1,1,0,NA,NA,0
+ak1999,2,1,filler,1,2,0,NA,NA,0
+ak1999,2,1,filler,1,3,0,NA,NA,0
+ak1999,2,1,filler,1,4,0,NA,NA,0
+ak1999,2,1,filler,1,5,0,NA,NA,0
+ak1999,2,1,filler,1,6,0,NA,NA,0
+ak1999,2,1,filler,2,0,0,NA,NA,0
+ak1999,2,1,filler,2,1,0,NA,NA,0
+ak1999,2,1,filler,2,2,0,NA,NA,0
+ak1999,2,1,filler,2,3,0,NA,NA,0
+ak1999,2,1,filler,2,4,0,NA,NA,0
+ak1999,2,1,filler,2,5,0,NA,NA,0
+ak1999,2,1,filler,2,6,0,NA,NA,0
+ak1999,2,1,filler,1,0,0,NA,NA,0
+ak1999,2,1,filler,1,1,0,NA,NA,0
+ak1999,2,1,filler,1,2,0,NA,NA,0
+ak1999,2,1,filler,1,3,0,NA,NA,0
+ak1999,2,1,filler,1,4,0,NA,NA,0
+ak1999,2,1,filler,1,5,0,NA,NA,0
+ak1999,2,1,filler,1,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,filler,2,0,0,NA,NA,0
+ak1999,2,1,filler,2,1,0,NA,NA,0
+ak1999,2,1,filler,2,2,0,NA,NA,0
+ak1999,2,1,filler,2,3,0,NA,NA,0
+ak1999,2,1,filler,2,4,0,NA,NA,0
+ak1999,2,1,filler,2,5,0,NA,NA,0
+ak1999,2,1,filler,2,6,0,NA,NA,0
+ak1999,2,1,filler,3,0,0,NA,NA,0
+ak1999,2,1,filler,3,1,0,NA,NA,0
+ak1999,2,1,filler,3,2,0,NA,NA,0
+ak1999,2,1,filler,3,3,0,NA,NA,0
+ak1999,2,1,filler,3,4,0,NA,NA,0
+ak1999,2,1,filler,3,5,0,NA,NA,0
+ak1999,2,1,filler,3,6,0,NA,NA,0
+ak1999,2,1,filler,1,0,0,NA,NA,0
+ak1999,2,1,filler,1,1,0,NA,NA,0
+ak1999,2,1,filler,1,2,0,NA,NA,0
+ak1999,2,1,filler,1,3,0,NA,NA,0
+ak1999,2,1,filler,1,4,0,NA,NA,0
+ak1999,2,1,filler,1,5,0,NA,NA,0
+ak1999,2,1,filler,1,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,C,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,A,6,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,0,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,1,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,2,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,3,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,4,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,5,0,NA,NA,0
+ak1999,2,1,experimental_trial,B,6,0,NA,NA,0
+ak1999,2,1,filler,2,0,2441,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,1,1916,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,2,2566,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,3,2122,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,4,2210,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,5,2048,6226,Totally incomplete,15003
+ak1999,2,1,filler,2,6,1700,6226,Totally incomplete,15003
+ak1999,2,1,experimental_trial,A,0,2025,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,1,1764,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,2,1804,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,3,1671,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,4,1653,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,5,2929,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,A,6,1714,2998,Somewhat incomplete,13560
+ak1999,2,1,experimental_trial,B,0,1554,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,1,1479,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,2,1534,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,3,1626,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,4,1633,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,5,1644,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,B,6,1509,2216,Totally complete,10979
+ak1999,2,1,experimental_trial,A,0,1490,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,1,1459,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,2,1523,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,3,1513,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,4,1647,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,5,1551,2370,Somewhat incomplete,10861
+ak1999,2,1,experimental_trial,A,6,1678,2370,Somewhat incomplete,10861
+ak1999,2,1,filler,3,0,1709,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,1,1661,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,2,1852,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,3,2000,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,4,1783,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,5,1826,3206,Somewhat incomplete,12839
+ak1999,2,1,filler,3,6,2008,3206,Somewhat incomplete,12839
+ak1999,2,1,experimental_trial,C,0,1647,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,1,1608,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,2,1715,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,3,1720,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,4,1604,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,5,1539,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,C,6,1530,7756,Totally incomplete,11363
+ak1999,2,1,experimental_trial,B,0,1880,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,1,1652,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,2,1605,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,3,1559,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,4,1729,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,5,1740,2121,Totally complete,11950
+ak1999,2,1,experimental_trial,B,6,1785,2121,Totally complete,11950
+ak1999,2,1,filler,1,0,1384,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,1,1481,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,2,1463,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,3,1546,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,4,1445,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,5,1487,3114,Somewhat complete,10466
+ak1999,2,1,filler,1,6,1660,3114,Somewhat complete,10466
+ak1999,2,1,experimental_trial,B,0,1274,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,1,1235,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,2,1280,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,3,1286,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,4,1303,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,5,1309,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,6,1189,1547,Totally complete,8876
+ak1999,2,1,experimental_trial,B,0,1332,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,1,1241,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,2,1232,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,3,1283,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,4,1255,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,5,1233,1582,Totally complete,8924
+ak1999,2,1,experimental_trial,B,6,1348,1582,Totally complete,8924
+ak1999,2,1,filler,2,0,1155,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,1,1230,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,2,1230,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,3,1185,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,4,1258,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,5,1349,3066,Somewhat complete,8795
+ak1999,2,1,filler,2,6,1388,3066,Somewhat complete,8795
+ak1999,2,1,experimental_trial,C,0,1309,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,1,1362,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,2,1323,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,3,1338,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,4,1300,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,5,1347,2295,Somewhat complete,9381
+ak1999,2,1,experimental_trial,C,6,1402,2295,Somewhat complete,9381
+ak1999,2,1,filler,2,0,1171,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,1,1159,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,2,1256,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,3,1228,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,4,1301,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,5,1380,1912,Somewhat complete,8776
+ak1999,2,1,filler,2,6,1281,1912,Somewhat complete,8776
+ak1999,2,1,filler,3,0,1092,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,1,1120,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,2,1188,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,3,1174,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,4,1159,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,5,1197,1800,Somewhat complete,8329
+ak1999,2,1,filler,3,6,1399,1800,Somewhat complete,8329
+ak1999,2,1,experimental_trial,B,0,1117,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,1,1156,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,2,1190,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,3,1297,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,4,1225,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,5,1503,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,B,6,1508,1099,Totally complete,8996
+ak1999,2,1,experimental_trial,A,0,1093,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,1,1145,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,2,1084,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,3,1100,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,4,1089,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,5,1188,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,6,1154,4192,Somewhat complete,7853
+ak1999,2,1,experimental_trial,A,0,1236,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,1,1306,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,2,1442,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,3,1409,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,4,1237,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,5,1297,2322,Somewhat complete,9406
+ak1999,2,1,experimental_trial,A,6,1479,2322,Somewhat complete,9406
+ak1999,2,1,filler,1,0,1238,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,1,1368,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,2,1270,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,3,1328,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,4,1226,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,5,1311,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,1,6,1408,2162,Somewhat incomplete,9149
+ak1999,2,1,filler,3,0,1361,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,1,1280,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,2,1392,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,3,1381,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,4,1320,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,5,1494,4859,Somewhat complete,9847
+ak1999,2,1,filler,3,6,1619,4859,Somewhat complete,9847
+ak1999,2,1,experimental_trial,C,0,1367,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,1,3657,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,2,1333,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,3,1352,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,4,1381,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,5,1414,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,6,2467,9098,Totally complete,12971
+ak1999,2,1,experimental_trial,C,0,1150,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,1,1255,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,2,1363,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,3,1137,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,4,1180,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,5,1193,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,C,6,1311,1805,Somewhat complete,8589
+ak1999,2,1,experimental_trial,A,0,1013,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,1,1118,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,2,1035,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,3,1180,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,4,1314,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,5,1163,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,A,6,1129,1861,Somewhat incomplete,7952
+ak1999,2,1,experimental_trial,C,0,962,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,1,888,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,2,984,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,3,910,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,4,975,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,5,965,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,6,1054,2665,Somewhat incomplete,6738
+ak1999,2,1,experimental_trial,C,0,941,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,1,878,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,2,905,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,3,943,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,4,972,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,5,972,1014,Somewhat incomplete,6703
+ak1999,2,1,experimental_trial,C,6,1092,1014,Somewhat incomplete,6703
+ak1999,2,1,filler,1,0,973,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,1,939,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,2,1039,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,3,1067,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,4,1107,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,5,1078,1211,Totally incomplete,7309
+ak1999,2,1,filler,1,6,1106,1211,Totally incomplete,7309
+ak1999,2,1,experimental_trial,A,0,956,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,1,1020,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,2,1052,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,3,1183,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,4,1207,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,5,1155,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,A,6,1275,1399,Somewhat complete,7848
+ak1999,2,1,experimental_trial,B,0,1212,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,1,1129,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,2,1199,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,3,1176,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,4,1145,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,5,1296,2419,Somewhat complete,9056
+ak1999,2,1,experimental_trial,B,6,1899,2419,Somewhat complete,9056
