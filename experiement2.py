@@ -70,8 +70,8 @@ try:
         # EXAMPLES(3')
 
         # EX1. CLOSED SEQUENCE
-        example1 = 'examples/Example_closed'
-        example2 = 'examples/Example_open'
+        example1 = 'examples/closed'
+        example2 = 'examples/open'
 
         showInstructions(screen, 'instructions_1.jpeg')
         play_music(example1)

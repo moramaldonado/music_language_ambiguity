@@ -42,7 +42,7 @@ def create_empty_csv(name):
     with open(name, 'wb') as f:
         writer = csv.writer(f)
         writer.writerow(
-            ('Subject', 'Experiment', 'Pilot', 'Item', 'Condition', 'Experiment', 'Chunk', 'Trans', 'List.time', 'Response.Time', 'Answer', 'Total.List.Time'))
+            ('Subject', 'Experiment', 'Pilot', 'Type', 'Condition', 'Chunk', 'List.time', 'Response.Time', 'Answer', 'Total.List.Time'))
     f.close()
 
 def showInstructions(screen, instructions):
@@ -99,7 +99,7 @@ def self_paced_listening(screen,sound):
     t0 = pygame.time.get_ticks()
     screen.fill(WHITE)
     SCREEN_X, SCREEN_Y = screen.get_size()
-    img = pygame.image.load('music.jpg')
+    img = pygame.image.load('music.png')
     img_size_x, img_size_y = img.get_size()
     img_pos_x = round((SCREEN_X-img_size_x)/2)
     img_pos_y = round((SCREEN_Y-img_size_y)/2)
@@ -303,15 +303,15 @@ def selection_task(screen, sound1, sound2):
                 print "outside"
 
 def include_csv_data(name, trials, path):
-    #('Subject', 'Experiment', 'Pilot', 'Type', 'Condition', 'Experiment', 'Chunk', 'Transposition', 'List.time', 'Response.Time', 'Answer', 'Total.List.Time'))
+    #('Subject', 'Experiment', 'Pilot', 'Type', 'Condition', 'Chunk', 'List.time', 'Response.Time', 'Answer', 'Total.List.Time'))
     os.chdir(path)
     with open(name, 'a') as f:
         writer = csv.writer(f)
         for t in range(len(trials)):
             for i in range(len(trials[t]['chunks'])):
                 writer.writerow((trials[t]['subject'], trials[t]['experiment'], trials[t]['pilot'], trials[t]['type'],
-                                 trials[t]['condition'], str(i),
-                                 trials[t]['chunks'][i][1], trials[t]['response_time'], trials[t]['response'], trials[t]['total.listening.time']))
+                                 trials[t]['condition'], str(i), trials[t]['chunks'][i][1],
+                                 trials[t]['response_time'], trials[t]['response'], trials[t]['total.listening.time']))
 
     f.close()
 
