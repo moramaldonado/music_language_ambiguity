@@ -1,0 +1,15 @@
+Subject,Age,Gender (f/m),GMSI-Score,Musician? (Y/N),Total Duration,Experimenter Observations,Subject comments?
+FMtest,30,m,,Y,5:00,That's me!,
+M01,27,m,,Y,5:00,,
+M02,25,f,,N,6:00,,decision based on last two chords
+M03,22,f,,N,5:00,,
+M04,32,m,,Y,5:00,,
+M05,32,m,,N,6:00,,
+M06,28,m,,N,10:00,,
+KP1987,30,f,,Y,8,,
+EC1982,35,f,,Y,10,,
+DH1990,27,m,,Y,8,,
+CT1986,31,f,,N,10,Examples are too slow,
+JW1983,34,m,,Y,10,"not less than 12 trials per condition; inform participants about total duration, make it a scale not categorical (without intermediate labels)",
+CA1991,26,f,,Y,6,difficulty to use the whole range of the scale,
+AK1999,18,f,,Y,10,,
