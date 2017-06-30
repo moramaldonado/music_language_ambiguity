@@ -1,0 +1,157 @@
+---
+title: "Analyses Pilot"
+author: "Mora Maldonado"
+date: "6/30/2017"
+output: html_document
+---
+
+#TODO and comments
++ Include in this file rough predictions
++ Decide exclusion criteria (based on accuracy and time)
++ There seem to be no differences in time (maybe more time pressure?)
++ Stats won't work with this amount of subjects, specially given that we have to take subjects out. Also, just by eye there is nothing in the online data. 
+
+
+##Charging packages
+_[HIDDEN]_
+```{r packages, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(lme4)
+library(plyr)
+
+# Standard error of the mean
+se <- function(x, ...) {
+  n <- length(x)
+  return(sd(x, ...)/sqrt(n))
+}
+```
+##Chargind data 
+FYI: *data* contains all the results, *experimental_items* contains only results for experimental trials
+```{r Charging data}
+data <- read.csv("PilotResults.csv")
+data <- data[!apply(is.na(data) | data == "", 1, all),]
+info <- read.csv("PilotInfo.csv")
+```
+
+### Organizing a little bit
+**Printing type of data in each column to check whether everything is right**
+```{r Organizing data}
+data$Subject <- factor(data$Subject)
+data$Type <- factor(data$Type)
+data$Condition <- factor(data$Condition)
+data$Response <- factor(data$Response)
+data$X <- factor(data$X)
+data$Response.Numeric <- data$Response
+levels(data$Response.Numeric) <- c(2,1,3,0)
+data$Response.Numeric <- as.numeric(as.character(data$Response.Numeric))
+data$Chunk.Time.Log <- log(data$Chunk.Time)
+data$Total.Time.Log <- log(data$Total.Time )
+data$Response.Time.Log <- log(data$Response.Time)
+experimental_items <- subset(data, Type=='experimental_trial')
+fillers<- subset(data, Type=='filler')
+
+
+str(data)
+```
+
+## Plots
+### Offline responses
+Responses can go from **0** (Totally incomplete) to **3** (Totally complete). We transformed this into a continuous variable, measure the percentage of completeness
+
+NB: Subject means will serve to exclude subjects that are very different. 
+```{r Offiline results}
+offline_data.subject<- aggregate(Response.Numeric~Subject+Condition, data= experimental_items, mean, na.rm=T)
+ggplot(offline_data.subject, aes(y=Response.Numeric, x=Condition, colour=Subject, group=Subject, label=Subject)) + geom_point() + geom_line(alpha=.5) +geom_text(aes(label=Subject),hjust=0, vjust=0)
+
+offline_data.overall<- ddply(offline_data.subject, c("Condition"),
+                      function(offline_data.subject)c(response=mean(offline_data.subject$Response.Numeric, na.rm=T), se=se(offline_data.subject$Response.Numeric, na.rm=T)))
+
+ggplot(offline_data.overall, aes(y=response, x=Condition, fill=Condition)) +
+  geom_bar(position=position_dodge(), stat="identity")  +   
+  ylab('Percentage of completeness') + 
+  geom_errorbar(aes(ymin=response-se, ymax=response+se), width=.2, position=position_dodge(.9)) 
+
+
+```
+
+### Online response
+#### Listening time per chunks in experimental items
+NB: ROI = CHUNK 4 (and following given spill over)
+```{r Online responses, fig.width=10}
+
+online_data.subject<- aggregate(Chunk.Time.Log~Subject+Condition+X, data= experimental_items, mean, na.rm=T)
+
+ggplot(online_data.subject, aes(y=Chunk.Time.Log, x=X, colour=Condition, group=Condition)) + 
+  geom_point() +
+  geom_line(alpha=.5) + 
+  facet_grid(.~Subject) + 
+  theme_minimal() +  
+  ylab("Listening Time (Log)") +
+  xlab("Chunk") 
+
+online_data.overall<- ddply(online_data.subject, c("Condition", "X"),
+                       function(online_data.subject)c(response=mean(online_data.subject$Chunk.Time.Log, na.rm=T), se=se(online_data.subject$Chunk.Time.Log , na.rm=T)))
+
+ggplot(online_data.overall, aes(y=response, x=X, colour=Condition, group=Condition)) + 
+  geom_point(size=3, shape=21, fill="white", alpha=.5) + 
+  geom_line(alpha=.5) +  
+  theme_minimal() +
+  ggtitle('Listening time per chunk') +
+  ylab("Listening Time (Log)") +
+  xlab("Chunk") +
+  geom_errorbar(aes(ymin=response-se, ymax=response+se), alpha=.4, width=.2)
+
+```
+
+
+####  Listening time for fillers
+NB: I don't remember how fillers were constructed, and I don't know where exactly are the out-of-key chords
+*[PLEASE INSERT HERE DIFFERENCES BETWEEN CONDITIONS FOR FILLERS]*
+
+```{r fig.width=10}
+
+online_data.subject.fillers<- aggregate(Chunk.Time.Log~Subject+Condition+X, data= fillers, mean, na.rm=T)
+ggplot(online_data.subject.fillers, aes(y=Chunk.Time.Log, x=X, colour=Condition, group=Condition)) + 
+  geom_point() +
+  geom_line(alpha=.5) +
+  scale_colour_brewer(palette='Oranges') +
+  ggtitle('Listening time in Fillers')+
+  facet_grid(.~Subject) + 
+  theme_minimal()
+
+online_data.overall.fillers<- ddply(online_data.subject.fillers, c("Condition", "X"),
+                            function(online_data.subject.fillers)c(response=mean(online_data.subject.fillers$Chunk.Time.Log, na.rm=T), se=se(online_data.subject.fillers$Chunk.Time.Log , na.rm=T)))
+
+ggplot(online_data.overall.fillers, aes(y=response, x=X, colour=Condition, group=Condition)) + 
+  geom_point(size=3, shape=21, fill="white") + 
+  geom_line(alpha=.7) +  
+  theme_minimal() +
+  scale_color_brewer(palette='Oranges')+
+  ggtitle('Listening time per chunk in Fillers') +
+  ylab("Listening Time (Log)") +
+  xlab("Chunk") +
+  geom_errorbar(aes(ymin=response-se, ymax=response+se), alpha=.3, width=.2)
+
+```
+
+#### Total listening time
+```{r}
+online_data.subject_total <- aggregate(Total.Time.Log~Subject+Condition, data= experimental_items, mean, na.rm=T)
+ggplot(online_data.subject_total, aes(y=Total.Time.Log, x=Condition, group=Subject, color=Subject)) + geom_point() + geom_line(alpha=.5) +  theme_minimal()
+
+online_data.overall_total<- ddply(online_data.subject_total, c("Condition"),
+                            function(online_data.subject_total)c(response=mean(online_data.subject_total$Total.Time.Log, na.rm=T), se=se(online_data.subject_total$Total.Time.Log , na.rm=T)))
+
+ggplot(online_data.overall_total, aes(y=response, x=Condition, fill=Condition)) +
+  geom_bar(position=position_dodge(), stat="identity")  +
+  coord_cartesian(ylim=c(7.5, 9.3)) +
+  geom_errorbar(aes(ymin=response-se, ymax=response+se), width=.2, position=position_dodge(.9))
+
+```
+
+
+
+
+
+
