@@ -105,6 +105,27 @@ ggplot(online_data.overall, aes(y=response, x=X, colour=Condition, group=Conditi
 ```
 
 
+#### Listening time per chunks in experimental items
+NB: ROI = CHUNK 4 (and following given spill over)
+```{r, fig.width=10}
+
+online_data.subject<- aggregate(Chunk.Time~Subject+Condition+X, data= experimental_items, mean, na.rm=T)
+online_data.overall<- ddply(online_data.subject, c("Condition", "X"),
+                       function(online_data.subject)c(response=mean(online_data.subject$Chunk.Time, na.rm=T), se=se(online_data.subject$Chunk.Time , na.rm=T)))
+
+ggplot(online_data.overall, aes(y=response, x=X, colour=Condition, group=Condition)) + 
+  geom_point(size=3, shape=21, fill="white", alpha=.5) + 
+  geom_line(alpha=.5) +  
+  theme_minimal() +
+  ggtitle('Listening time per chunk') +
+  ylab("Listening Time (RAW)") +
+  xlab("Chunk") +
+  geom_errorbar(aes(ymin=response-se, ymax=response+se), alpha=.4, width=.2)
+
+```
+
+
+
 ####  Listening time for fillers
 NB: I don't remember how fillers were constructed, and I don't know where exactly are the out-of-key chords
 *[PLEASE INSERT HERE DIFFERENCES BETWEEN CONDITIONS FOR FILLERS]*
